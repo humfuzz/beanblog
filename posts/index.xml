@@ -1,12 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on My New Hugo Site</title>
+    <title>Posts on bean blog</title>
     <link>http://example.org/posts/</link>
-    <description>Recent content in Posts on My New Hugo Site</description>
+    <description>Recent content in Posts on bean blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 09 Jan 2023 14:43:19 -0800</lastBuildDate><atom:link href="http://example.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 30 Jan 2023 17:00:00 -0800</lastBuildDate><atom:link href="http://example.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>It’s okay to not keep habits</title>
+      <link>http://example.org/posts/habits/</link>
+      <pubDate>Mon, 30 Jan 2023 17:00:00 -0800</pubDate>
+      
+      <guid>http://example.org/posts/habits/</guid>
+      <description>On the second weekend of every year, I set aside my entire life for a singular activity—the MIT Mystery Hunt. The problem with ignoring life, sleep, for the monolithic goal of solving a million puzzles, is that you also ignore whatever habits you’ve just tried to start in the new year.
+Case in point: it’s been three weeks since my first “weekly” post. It’s a perfect setup for failure!
+In 2020, I wanted to review my Russian Anki deck (flash cards for learning new vocabulary) every day.</description>
+    </item>
+    
     <item>
       <title>Why write a blog?</title>
       <link>http://example.org/posts/why-write/</link>
