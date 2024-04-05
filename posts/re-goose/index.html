@@ -1,0 +1,132 @@
+<!DOCTYPE html><html lang="en"><head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta property="og:title" content="Part Two"/>
+<meta property="og:description" content=""/>
+<meta property="og:type" content="article"/>
+<meta property="og:url" content="https://blog.humfuzz.com/posts/re-goose/"/><meta property="article:section" content="posts"/>
+<meta property="article:published_time" content="2024-04-01T16:00:00-07:00"/>
+<meta property="article:modified_time" content="2024-04-01T16:00:00-07:00"/>
+
+  <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Part Two"/>
+<meta name="twitter:description" content=""/>
+
+  
+  <meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff"/>
+  <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#262d33"/>
+  <title>
+    
+    bean blog – Part Two
+    
+  </title>
+  
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>
+  
+  
+  
+  <link rel="stylesheet" href="/minima.1712346580.css"/>
+  
+  
+  <script defer="" type="text/javascript" src="/minima.1712346580.js"></script>
+  
+<script>
+  
+  let default_theme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+
+  try {
+    const local = localStorage.getItem('theme')
+    if (local) {
+      default_theme = local
+    }
+    localStorage.setItem('theme', default_theme);
+    window.minima_theme = default_theme;
+    document.querySelector('html').classList.add(default_theme);
+  } catch (e) {
+    console.error(e);
+  }
+</script></head>
+
+
+
+
+<body>
+  <header class="mt-3 mb-6">
+  <div class="container mx-auto">
+    <nav class="flex justify-between items-center">
+      <div class="flex items-center">
+        
+        <div id="theme-switch" class="text-3xl cursor-pointer"></div>
+      </div>
+      <ul class="flex items-center font-medium
+        whitespace-nowrap overflow-x-auto overflow-y-hidden">
+        
+      </ul>
+      <ul class="flex item-center text-sm font-bold">
+        
+        <li class="ml-2"><a href="https://blog.humfuzz.com/"></a></li>
+        
+      </ul>
+    </nav>
+  </div>
+</header>
+
+  
+<div class="container mx-auto">
+  <h1 class="text-4xl font-extrabold mt-6 mb-6">Part Two</h1>
+  <div class="mb-3 text-sm flex justify-between ">
+    <div>
+      
+      
+    </div>
+    
+  </div>
+  <main class="mb-8">
+    <p></p>
+    <article class="md text-base">
+      <div id="verification" style=" display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20vh;">
+    <div id="entry-box">
+        
+        <div id="secret-word" style="  font-size: 1.5rem;
+    margin-bottom: 1rem;">Enter the password to unlock this content.</div>
+        <form id="password-form" onsubmit="checkPassword(); return false;" style=" display: flex;
+    flex-direction: column;
+    width: auto;">
+            <input type="password" name="password" id="password" placeholder="Password" required="" autocomplete="off" style="font-size: 1.2rem; margin-bottom: 1.5rem;
+      padding: 10px 20px;"/>
+            <input type="hidden" name="encryptedPassword" id="encrypted-password"/>
+            <input type="submit" value="Submit" name="submit" id="secret-submit" style="font-size: 1.2rem; padding: 10px 20px;
+      cursor: pointer;" onmouseover="this.style.backgroundColor=&#39;#FAB005&#39;;" onmouseout="this.style.backgroundColor=&#39;&#39;;"/>
+        </form>
+    </div>
+    <div id="secret" style="display: none">e6e3e0d5ee1e52ba76dfc1cf|e9ef3f6130b71c0c8d8f142427bcc4800b273c2436dbf22f25a4552299eea4eb0fa3137c493a958d9ddf339348c221ec17c1c66606930c2c456d7096d57029edbc1f78ba888674a36010333ecbfc4f74728a609ef58112741b4bc0bb8c4992c122dd359e5dde933e9aa82c1fa5939de5f8d78f60aa959939f053efd34bbe7e91362c0a57cfc255e28b1ff51c47fb8b25fc49bd7f1452039625408af35549ccabf7da389916bfbbb0f25e42dc93e499edb0f62ecbc39d73e20302c89192d7826900f7ca126b669e9814ceb88ce689adb0afb46fcc57f20a6f6ed1b645c90bde88cfb8b98580516a008b6cd438706638ba4b5fca5501be301bf2ffbcecc596cf615f1f2238fde848bf3eba2a23a229248126091dc141b3874b0cba9fa0e74dd56d459cc4ab80ce45657bde076a4ee25996621df5b6b9ca087a61a66eb5e5f46980968859dfa6d3c8b61beea1cb944363431d1685ba8ed4e92af0c584ca77d95da14a837345b1cd55dbf7f68853843d9e35e41477754a65a873f41ce8706fd8655feb81f972b7fb07bbd616b727f2968cee3368152737e4918e4672b0c0c4e6ada62431817fc16425e7850da6114da24fd783ac96e0d23a2253dbc7751e9d7bb8b8171c854d4bee6d1b739962cf483b24243afccdca851dfae10f3679e3782236a5da7b5b3a632e3cb370902b6ddc06e250bf8bf7bd5bae8304414abdf040af72846da2158ed69136d16793fd97fc78352ba452c376f9c740b2a32e4a274d5b541195059520bca0214d087d05c0a1ef27db1e1dd2a7abfd34f3aae969358e4deccff1147b4a56991453c575fcccd161635e62729a7c729af06d8cbb082f2989da553a9286755fcff79d2f1e4a330e4fa64440dc069063fb99c5da9c4fc7773f74f51fc575a5d9c86682f406ea571503a63f06b4df20565ff516dd2cd57518fc2840ee8084bb472edd3c32183648d086436b860a541237da0cadfe5a966b6513db86f5f8862cb7f82cd2cd646ba851ec0fb1b84c243dbffdb9bda6ebc462573b847aca9625ec401795cfc53f40f750f12b86e6b3caf50501bcb845be5be0b7abb1d8d3ee32f1870f95964ba652d14ecd4df8c7988a799e480a1e971c433ba4b755e979af29f47e2ac357b2fce6c0e517aab0c30b6f3a0650685d3fa8f9959d1dbe381825f0df4083b928a3b11b75be40400bbd6f9de7b24b9d505a5f48489088e658d3ad31bc987c48da70eba456c4fb7e70526ec340964fb00a2592577b5258b8da4aba0eeac7370d7cc073caf26e1f902a7c1433d060797bb8ae3ac8b201c874f2a4504e03d7fee25558694c375ed769b5fe477c592a71e1d53bf35e190f7923c73735d53635ef1d6126463161daae1ce4697f303830d46606edb3b424f53d30d2bb9373b8bb3cc8d2086515bbd7b6cc421bddb4bb521be67f4c4e0281e2e4c4148931277f6a7e99bb54570c359ec5ca049d58f71f22f81d343503ab3bcdf7d664470ab84a53a72357d852fde0f77454d16dff7b6f38b2412870c59ee1e1c4dc2816434cd18fd2a7cc21b55ad41b51012c1003174be3272b4faa3de3bc29847771d216049711f8fdc0237c067499584ef26db190c9aa8084ce611bb0a5a2c3f33b298617603044e1dbcb1a36d60bee55662020b99d88390b3bd04c97b9955bdd2aea34b30206c0353929f75a85472534f2bd0d19fc8a87ebba51130ca6a721461c62d0b8897d620a30ca0b238c8b4a7b7cdcdf6d52f3b6cc0a392c59cd7f8611f89091dbfebc3f39140f26b21abe0e0e971e3dc21ea81ca519ae047285e1f413b1a36a00640acb6115f4cc4411033b7fb8c9526d4f2168e0447ce89fa993b12c42f39033bdec9acf40ba4eb8ab269c9ca0e3d168738cec0e99f572f021267f62db11296c543be7f5e299f28b415e2c131769ee96de6de767d5f475d10fd7385ed290e1660822543f93ce0a4e3a1d2a4bc824e120c5a4fbfc5333554a808c40abe05e41eb82f100c425864819dbcf90f2bd0a297a2347f001bc42a912784aecd247690c7776c1e4264f522f3736d59fc658703427f92c6626b24dc6bcc791967d767efeddd2e208be21cb3aa7ceb5667be975879a49a5e3ad02df7d2d2af4c1082342c21493638ea641e1954872d5b7a8e977e6d2b4abc4f763805941d32fdea095a6c345b6697815dd5802b24a2b9214a91406ef0ded34a5cdc7cbb4b10448713b5ba8e408ef96fa846570149c4e0caf4d87660ccf711fb4bb3c1459ebb75ae33193fb76f57d63393871d829fae92d119bdbb296d7f5d8e26e2feca5a53e6c310b6bf18c4924daf63fcec620ccf3f59f3dc791c1186becdacdc5b9ef8c77d97a7d640cbafa4599f6146d146fc8a680935039544424e9133435275f90282142aa811b9f8b8e6454cb38f1ebb4dd289a2e970a7b31d653dc7d4f9225a47dda7bac169d4f144e999bbc0ba9b887ba47c2f383709d9adb25c23c21d3e426724fbe84007cdbb71acb4c5fe3e1656dd6ccad6225a66d6227b2f02e219f2d6d46e7132e786181da03b1fb24185d340198d11a41bd16935729ec0127129cd8c03f7f475697d71fc10cb1a078bf16b543b60ea601eaddcfe1c32d8837f13ed062c9a9c592a8bcedee69c44043f0efad3a4e0ab532f853586d57c22cb85fa3eb830f735599ccacd4a6558dea48d7db3d38d604c2f00cc5a5d79a44b220407d2bcf379d5baddc7184968408a4d13d64183a8b2901eaac42aef8667b4da6ca652e471ab73bd740a03e8777d2110735ae9294543a9094876c69ada6a5de753453fab09d4dd328b52ae0bff75332c2576763979492c74a0a272bd74296b237a1090f5b676783fa4efb2eefb6fdfe1da061570ec83e72bc983257d83a2b6b625840215c0d2cccc7cfe24c7e12de96a254fad3f7c960f86af3f950a785c91b9d283d054e0c4031a127ca119a1c509b94e6900834951b42cbe6f647726e771385abd0498724890a9351b79d5d912e0d46544a182c0e7050ea3af86af185b062448e401714f3e481bf50f29c3eee12c48d51accce403b23b68172c74b85b077a109dde9b290bd619502ea5473d2578f097423af59939a52dd985c1e2ecc25cf335e020ac48d181c3416338a84857d19453da19f6ffdaa26fb6136d09891ab80b026081d2576d526cad94b8541387d0f516e2a095a349ef68dcc47195948724fd2ca50a460a205ccc34c3e97d1c25a06824adc48f0c186f42923e1a2d6f69f1150ddfcdd722b419003682fef7b1cc19f7ae91f27bdb48d4e26e39491b08dea3239e4efc7e7434929ae0021f19916ba398fe8b9820d4b6e01c9c8b8be8b7a9a0c984dde0b9cf2fa1f2ce0cd63f872cd1f4af07dd51683ca304bdf8d5af</div>
+</div>
+    </article>
+  </main>
+  
+
+
+
+
+</div>
+
+
+  <footer class="mt-8 mb-8">
+    <div class="container mx-auto">
+      <div class="mt-8 flex justify-between items-center">
+        <p class="mt-0 text-sm">
+          
+           
+          
+        </p>
+        <p class="flex items-center mt-0">
+          
+        </p>
+      </div>
+    </div>
+  </footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/crypto-js.js"></script><script src="/js/AESDecrypt.js"></script></body></html>

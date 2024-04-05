@@ -2,31 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on bean blog</title>
-    <link>http://example.org/posts/</link>
+    <link>https://blog.humfuzz.com/posts/</link>
     <description>Recent content in Posts on bean blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 30 Jan 2023 17:00:00 -0800</lastBuildDate><atom:link href="http://example.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 01 Apr 2024 16:01:00 -0700</lastBuildDate>
+    <atom:link href="https://blog.humfuzz.com/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>It’s okay to not keep habits</title>
-      <link>http://example.org/posts/habits/</link>
+      <link>https://blog.humfuzz.com/posts/habits/</link>
       <pubDate>Mon, 30 Jan 2023 17:00:00 -0800</pubDate>
-      
-      <guid>http://example.org/posts/habits/</guid>
-      <description>On the second weekend of every year, I set aside my entire life for a singular activity—the MIT Mystery Hunt. The problem with ignoring life, sleep, for the monolithic goal of solving a million puzzles, is that you also ignore whatever habits you’ve just tried to start in the new year.
-Case in point: it’s been three weeks since my first “weekly” post. It’s a perfect setup for failure!
-In 2020, I wanted to review my Russian Anki deck (flash cards for learning new vocabulary) every day.</description>
+      <guid>https://blog.humfuzz.com/posts/habits/</guid>
+      <description>On the second weekend of every year, I set aside my entire life for a singular activity—the MIT Mystery Hunt. The problem with ignoring life, sleep, for the monolithic goal of solving a million puzzles, is that you also ignore whatever habits you’ve just tried to start in the new year.&#xA;Case in point: it’s been three weeks since my first “weekly” post. It’s a perfect setup for failure!&#xA;In 2020, I wanted to review my Russian Anki deck (flash cards for learning new vocabulary) every day.</description>
     </item>
-    
     <item>
       <title>Why write a blog?</title>
-      <link>http://example.org/posts/why-write/</link>
+      <link>https://blog.humfuzz.com/posts/why-write/</link>
       <pubDate>Mon, 09 Jan 2023 14:43:19 -0800</pubDate>
-      
-      <guid>http://example.org/posts/why-write/</guid>
-      <description>In 2021, I bought a new keyboard for stenography. It wasn’t until a year later, when I committed to writing a daily diary with it, that I actually started learning steno. At the start of 2022, I set a simple, achievable goal: write 20 words every day.
-We’ll come back to how well I kept that habit, but this year I’ve set a new goal: write 500 words each week, and publish it here, my new—hopefully lifelong—blog.</description>
+      <guid>https://blog.humfuzz.com/posts/why-write/</guid>
+      <description>In 2021, I bought a new keyboard for stenography. It wasn’t until a year later, when I committed to writing a daily diary with it, that I actually started learning steno. At the start of 2022, I set a simple, achievable goal: write 20 words every day.&#xA;We’ll come back to how well I kept that habit, but this year I’ve set a new goal: write 500 words each week, and publish it here, my new—hopefully lifelong—blog.</description>
     </item>
-    
   </channel>
 </rss>

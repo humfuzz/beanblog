@@ -1,7 +1,7 @@
 {
 	"version": 3,
-	"file": "minima.1675226971.css",
-	"sourceRoot": "/home/uto/docs/blog",
+	"file": "minima.1712346580.css",
+	"sourceRoot": "/home/rein/docs/beanblog-private",
 	"sources": [
 		"assets/css/main.scss",
 		"themes/minima/assets/css/pre.scss",

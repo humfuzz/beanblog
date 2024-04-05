@@ -2,20 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://example.org/</loc>
+    <loc>https://blog.humfuzz.com/</loc>
+    <lastmod>2024-04-01T16:01:00-07:00</lastmod>
+  </url><url>
+    <loc>https://blog.humfuzz.com/posts/</loc>
+    <lastmod>2024-04-01T16:01:00-07:00</lastmod>
+  </url><url>
+    <loc>https://blog.humfuzz.com/posts/habits/</loc>
     <lastmod>2023-01-30T17:00:00-08:00</lastmod>
   </url><url>
-    <loc>http://example.org/posts/habits/</loc>
-    <lastmod>2023-01-30T17:00:00-08:00</lastmod>
-  </url><url>
-    <loc>http://example.org/posts/</loc>
-    <lastmod>2023-01-30T17:00:00-08:00</lastmod>
-  </url><url>
-    <loc>http://example.org/posts/why-write/</loc>
+    <loc>https://blog.humfuzz.com/posts/why-write/</loc>
     <lastmod>2023-01-09T14:43:19-08:00</lastmod>
   </url><url>
-    <loc>http://example.org/categories/</loc>
+    <loc>https://blog.humfuzz.com/categories/</loc>
   </url><url>
-    <loc>http://example.org/tags/</loc>
+    <loc>https://blog.humfuzz.com/tags/</loc>
   </url>
 </urlset>
